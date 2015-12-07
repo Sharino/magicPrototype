@@ -10,3 +10,16 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+.x--pv {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.x--pb {
+    padding-bottom: 12px;
+}
+.x--mb {
+    margin-bottom: 12px;
+}
+.full-width {
+    width: 100%;
+}
