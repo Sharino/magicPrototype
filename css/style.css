@@ -64,5 +64,13 @@
 }
 
 .container > .row.shop-row .glyphicon {
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.container > .row.shop-row > .rating {
+    float: right;
+}
+
+.container > .row.shop-row > .name {
+    font-weight: bold;
 }
