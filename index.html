@@ -21,7 +21,11 @@
 </head>
 
 <body>
-    <img src="images/yzy.png" style="margin: auto; display: block"/>
+    
+    <img src="images/yzy.png" style="margin: auto; display: block"/>    <div class="container">
+
+
+    </div>
     <div class="container">
         <div class="x--pv">
             <div class="btn btn-primary btn-lg full-width x--mb" id="akropolis">
@@ -41,7 +45,7 @@
 
     </div>
     <div class="footer">
-        
+
     </div>
     <!-- /.container -->
 
@@ -51,20 +55,19 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-
-            $(document).ready(function() {
-                $("#load_home").on("click", function() {
-                    window.location.href = "login.html";
-                });
-
-                $("#akropolis").on("click", loadMainPage);
-                $("#panorama").on("click", loadMainPage);
-                $("#europa").on("click", loadMainPage);
-
-                function loadMainPage() {
-                    window.location.href = "main-search-window.html";
-                }
+        $(document).ready(function() {
+            $("#load_home").on("click", function() {
+                window.location.href = "login.html";
             });
+
+            $("#akropolis").on("click", loadMainPage);
+            $("#panorama").on("click", loadMainPage);
+            $("#europa").on("click", loadMainPage);
+
+            function loadMainPage() {
+                window.location.href = "main-search-window.html";
+            }
+        });
     </script>
 </body>
 
