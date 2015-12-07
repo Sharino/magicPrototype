@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<div class="container x--pt">
+	<div class="container">
 		<div class="btn-group" role="group" aria-label="Atgal">
     		<a type="button" class="btn btn-default x--mv" href="main-search-window.html">
     			« Atgal
@@ -44,7 +44,7 @@
 
 			<div class="tab-content">
 			    <div role="tabpanel" class="tab-pane active" id="home">
-			    	<div class="container ">
+			    	<div class="container">
 			    		<div class="row shop-row">
 			    			<div class="col-xs-6 name">Zara</div>
 			    			<div class="col-xs-6 rating">
@@ -238,11 +238,16 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		$(".row.shop-row").on("click", function() {
+			window.location.href = "feedback.html";
+		});
+	</script>
 </body>
 
 </html>
