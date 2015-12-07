@@ -26,6 +26,7 @@
 .full-width {
     width: 100%;
 }
+
 .footer {
     position: absolute;
     right: 0;
@@ -34,7 +35,6 @@
     padding: 1rem;
     text-align: center;
 }
-
 .flexible-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -43,8 +43,8 @@
     overflow: hidden;
 }
 
-.flexible-container iframe,   
-.flexible-container object,  
+.flexible-container iframe,
+.flexible-container object,
 .flexible-container embed {
     position: absolute;
     top: 0;
