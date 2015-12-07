@@ -1,4 +1,12 @@
 .card {
-    width: 500px;
+    min-width: 320px;
     border: solid;
+}
+.x--bb {
+    border-bottom: solid 1px grey;
+}
+
+.x--ph {
+    padding-left: 12px;
+    padding-right: 12px;
 }
