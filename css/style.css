@@ -5,6 +5,9 @@
 .x--bb {
     border-bottom: solid 1px grey;
 }
+.x--bt {
+    border-top: solid 1px grey;
+}
 
 .x--ph {
     padding-left: 12px;
@@ -22,4 +25,12 @@
 }
 .full-width {
     width: 100%;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
 }
