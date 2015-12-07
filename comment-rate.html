@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Yzy shop - Prisijungimas</title>
+    <title>Yzy shop - Atsiliepimo palikimas</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,28 +24,32 @@
     <div class="container">
         <br/>
 
-        <div class="btn-group" role="group" aria-label="Atgal" onclick="window.location.href = 'index.html'">
+        <div class="btn-group" role="group" aria-label="Atgal">
             <button type="button" class="btn btn-default">« Atgal</button>
         </div>
 
-        <form class="form-signin">
-            <h2 class="form-signin-heading">Prisijungimas parduotuvėms</h2>
-            <hr/>
+        <h2 class="form-signin-heading">Palikite atsiliepimą</h2>
+        <hr/>
 
-            <label for="login" class="sr-only">Prisijungimo vardas</label>
-            <input type="input" id="login" class="form-control" placeholder="Prisijungimo vardas" required="" autofocus="">
+        <form class="form-horizontal" role="form">
+
+            <label for="message" class="sr-only">Komentaro tekstas</label>    
+            <textarea class="form-control" rows="4" name="message" placeholder="Komentaro tekstas"></textarea>
+
             <br/>
 
-            <label for="inputPassword" class="sr-only">Slaptažodis</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Slaptažodis" required="">
+            <label for="name" class="sr-only">Jūsų vardas</label>         
+            <input type="text" class="form-control" id="name" name="name" placeholder="Jūsų vardas" value="">
 
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me"> Prisiminti mane
-                </label>
-            </div>
+            <br/>
 
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Prisijungti</button>
+            <label for="human" class="sr-only">2 + 3 = ?</label>
+            <input type="text" class="form-control" id="human" name="human" placeholder="2 + 3 = ?">
+
+             <br/>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Pateikti atsiliepimą</button>
+
         </form>
     </div>
 
