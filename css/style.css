@@ -11,6 +11,9 @@
 .x--pl {
     padding-left: 12px;
 }
+.x--pt-s {
+    padding-top: 3px;
+}
 .x--pt {
     padding-top: 12px;
 }
@@ -31,10 +34,6 @@
 .x--mv-s {
     margin-bottom: 6px;
     margin-top: 6px;
-}
-.x--mv {
-    margin-top: 12px;
-    margin-bottom: 12px;
 }
 .x--mb {
     margin-bottom: 12px;
@@ -84,23 +83,4 @@ hr {
 }
 .inline-block {
     display: inline-block;
-}
-
-
-.container > .row.shop-row {
-    padding: 10px 0 10px;
-    font-size: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.container > .row.shop-row .glyphicon {
-    font-size: 18px;
-}
-
-.container > .row.shop-row > .rating {
-    float: right;
-}
-
-.container > .row.shop-row > .name {
-    font-weight: bold;
 }

@@ -22,10 +22,16 @@
 
 <body>
     <div class="header x--ph">
-        <div class="h2 pull-left" style=" margin-top:12px !important">Yzy Shop</div>
+        <div class=" pull-left x--pt-s" style="">
+            <img src="http://image.spreadshirtmedia.com/image-server/v1/designs/1005142838,width=178,height=178,version=1443549168/YZy.png" alt="Mountain View" class="small-image">
+        </div>
         <div class="btn-group x--pt pull-right" role="group" aria-label="Atgal">
             <button type="button" class="btn btn-default ">Prisijungti</button>
         </div>
+    </div>
+    <div class="container">
+
+
     </div>
     <div class="container">
         <div class="x--pv">
@@ -43,7 +49,7 @@
 
     </div>
     <div class="footer">
-        
+
     </div>
     <!-- /.container -->
 
@@ -53,20 +59,19 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
-
-            $(document).ready(function() {
-                $("#load_home").on("click", function() {
-                    window.location.href = "login.html";
-                });
-
-                $("#akropolis").on("click", loadMainPage);
-                $("#panorama").on("click", loadMainPage);
-                $("#europa").on("click", loadMainPage);
-
-                function loadMainPage() {
-                    window.location.href = "main-search-window.html";
-                }
+        $(document).ready(function() {
+            $("#load_home").on("click", function() {
+                window.location.href = "login.html";
             });
+
+            $("#akropolis").on("click", loadMainPage);
+            $("#panorama").on("click", loadMainPage);
+            $("#europa").on("click", loadMainPage);
+
+            function loadMainPage() {
+                window.location.href = "main-search-window.html";
+            }
+        });
     </script>
 </body>
 
