@@ -29,15 +29,18 @@
     margin-bottom: 6px;
     margin-top: 6px;
 }
+.x--mb {
+    margin-bottom: 12px;
+}
 hr {
-    margin: 6px 0 6px 0 !important; 
+    margin: 6px 0 6px 0 !important;
+}
+.x--bv {
+    border-bottom: solid 1px grey;
+    border-top: solid 1px grey;
 }
 .x--p {
     padding: 12px;
-}
-.x--mv {
-    margin-bottom: 12px;
-    margin-top: 12px;
 }
 .full-width {
     width: 100%;
@@ -69,59 +72,9 @@ hr {
     height: 100%;
 }
 
-.container > .row.shop-row {
-    padding: 10px 0 10px;
-    font-size: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.container > .row.shop-row .glyphicon {
-    font-size: 18px;
-}
-
-.container > .row.shop-row > .rating {
-    float: right;
-}
-
-.container > .row.shop-row > .name {
-    font-weight: bold;
-}
-
 .small-image {
     width: 50px;
 }
-
 .inline-block {
     display: inline-block;
 }
-
-.container > .row.shop-row {
-    padding: 10px 0 10px;
-    font-size: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.container > .row.shop-row .glyphicon {
-    font-size: 18px;
-}
-
-.container > .row.shop-row > .rating {
-    float: right;
-}
-
-.container > .row.shop-row > .name {
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> .theirs
