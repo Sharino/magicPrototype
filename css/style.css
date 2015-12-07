@@ -14,9 +14,6 @@
 .x--pt-s {
     padding-top: 3px;
 }
-.x--pt-xl {
-    padding-top: 48px;
-}
 .x--pt {
     padding-top: 12px;
 }
@@ -38,6 +35,19 @@
     margin-bottom: 6px;
     margin-top: 6px;
 }
+.x--mv {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.x--mr {
+    margin-right: 12px;
+}
+
+.x--mt-s{
+    margin-top: 6px;
+}
+
 .x--mb {
     margin-bottom: 12px;
 }
